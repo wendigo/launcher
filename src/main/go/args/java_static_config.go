@@ -26,6 +26,7 @@ var jvmSpecificConfig = map[string][]string{
 	"24": {rewriteBytecodes, allowDynamicAgentLoading, vectorApiIncubating, allowUnsafeUsage, allowNativeUsage},
 	"25": {rewriteBytecodes, allowDynamicAgentLoading, vectorApiIncubating, allowUnsafeUsage, allowNativeUsage, compactObjectHeaders},
 	"26": {rewriteBytecodes, allowDynamicAgentLoading, vectorApiIncubating, allowUnsafeUsage, allowNativeUsage, compactObjectHeaders},
+	"27": {rewriteBytecodes, allowDynamicAgentLoading, vectorApiIncubating, allowUnsafeUsage, allowNativeUsage},
 }
 
 func onArm64Only(option string) string {
